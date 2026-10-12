@@ -1,0 +1,44 @@
+ADAM Agenda 0.3 - installazione su GitHub Pages, tablet e telefono
+==================================================================
+
+1. Su GitHub
+   - Crea un repository (es. "adam-agenda") e carica TUTTO il contenuto di questa
+     cartella nella radice: index.html, manifest.webmanifest, sw.js, .nojekyll,
+     le cartelle icons/ e img/.
+   - Settings > Pages > Source: "Deploy from a branch", branch "main", cartella "/ (root)".
+   - Dopo 1-2 minuti l app e su https://<tuo-utente>.github.io/adam-agenda/
+   Per aggiornare: sostituisci i file nel repository; l app si aggiorna da sola
+   alla seconda apertura.
+
+2. Sul tablet / telefono
+   Apri quell indirizzo nel browser, poi installala con l icona sulla schermata Home:
+   - iPad / iPhone (Safari): Condividi > "Aggiungi alla schermata Home"
+   - Android (Chrome): menu con i tre puntini > "Installa app"
+   Da quel momento si apre a tutto schermo dall icona.
+
+3. Primo avvio
+   L app si apre vuota sulla pagina Impostazioni:
+   Server (es. soprano.soprano.biz) + Utente + Password > "Connetti".
+   La password non viene salvata, resta solo la chiave di accesso. "Esci" la toglie.
+
+4. Novita della 0.3
+   - Tema vetro sopra un immagine a tutto schermo; immagine diversa per tablet e telefono,
+     si cambia in Impostazioni (resta solo su quel dispositivo).
+   - Tablet: una sola barra in alto. Il logo ADAM AGENDA apre/chiude il menu laterale:
+     Calendario (con Aggiorna e Archiviate), Agenda (aziende), Impostazioni; in basso l utente.
+   - Telefono: niente menu laterale, barra in basso con Calendario / Agenda / Impostazioni.
+     Tocca di nuovo "Calendario" per Aggiorna e Archiviate.
+     Su iPhone la barra arriva fino in fondo allo schermo (sotto la riga di Home).
+   - Calendario: Giorno / Settimana / Mese con icone, doppio pulsante Ore / Carte,
+     ricerca (lente) in tutte le attivita: titolo, descrizione, checklist, link, file.
+   - Agenda (aziende): lettere A-Z e 123 in alto; ogni lettera si aggiunge alla ricerca
+     (A, poi M, poi S = aziende che iniziano con "ams"); la X svuota. 123 = nomi che
+     iniziano con un numero. Sul telefono le carte sono centrate: logo, nome, indirizzo.
+   - Impostazioni: lingua IT / RU / EN, colore di icone e pulsanti, trasparenza del vetro,
+     "Carte di vetro" (colorata solo la striscia laterale), sfondi, Esci.
+     Il registro delle richieste al server e in Impostazioni > Diagnostica.
+
+5. Da sapere
+   - La scheda dell attivita e rimasta quella della 0.2 (verra rifatta sul modello di Dimitri).
+   - La ricerca carica le attivita da 3 anni fa a 2 anni avanti alla prima apertura della lente.
+   - Serve la rete. Senza rete il calendario mostra l ultima copia vista.
